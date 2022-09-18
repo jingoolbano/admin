@@ -37,12 +37,45 @@
             border-radius: 50%;
             object-fit: cover;
           }
+
+          .details {
+            .itemTitle{
+              margin-bottom: 10px;
+              color: #555;
+            }
+            .detailItem{
+              margin-bottom: 10px;
+              font-style: 14px;
+
+              .detailKey{
+                font-weight: bold;
+                color: gray;
+                margin-right: 5px;
+              }
+
+              .detailValue{
+                font-weight: 300;
+              }
+            }
+          }
         }
       }
 
       .right {
         flex: 2;
       }
+
+    }
+    .bottom{
+      padding: 20px;
+      margin: 10px 20px;
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    }
+    .title{
+      font-size: 20px;
+      color: lightgray;
+      margin-bottom: 20px;
+      font-weight: bold;
     }
   }
 }
